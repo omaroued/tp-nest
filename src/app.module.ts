@@ -12,6 +12,7 @@ import { TodoServiceService } from './todo-service/todo-service.service';
   imports: [
     PremierModule,
     TodoModuleModule,
+    //Remote database (We have problem with the machine)
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'ec2-34-242-8-97.eu-west-1.compute.amazonaws.com',
